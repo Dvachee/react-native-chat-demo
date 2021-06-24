@@ -13,7 +13,7 @@ export default function FriendListScreen({navigation}: any) {
   const usersOnline = useSelector((state: any) => state.usersOnline);
   const {itemContainerStyle, avatarImgStyle, avatarNameViewStyle} = styles;
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex: 1, height: '100%'}}>
       <FlatList
         data={usersOnline}
         renderItem={({item}: any) => {

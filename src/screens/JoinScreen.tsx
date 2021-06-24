@@ -13,7 +13,7 @@ export default function JoinScreen({navigation}: any) {
   const dispatch = useDispatch();
   const [username, setUsername] = useState('');
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center', height: '100%'}}>
       <Image
         resizeMode="contain"
         style={{flex: 1}}

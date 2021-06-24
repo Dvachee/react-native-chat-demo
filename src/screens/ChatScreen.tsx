@@ -16,7 +16,7 @@ export default function ChatScreen({navigation}: any) {
   const messages = conversations[userId].messages;
 
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex: 1, height: '100%'}}>
       <GiftedChat
         renderUsernameOnMessage
         messages={messages}
