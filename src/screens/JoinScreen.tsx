@@ -4,8 +4,6 @@ import {
   TextInput,
   Image,
   Button,
-  Platform,
-  KeyboardAvoidingView,
 } from 'react-native';
 import {useDispatch} from 'react-redux';
 

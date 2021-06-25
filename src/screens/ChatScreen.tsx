@@ -1,7 +1,6 @@
 import React from 'react';
-import {View, Platform, KeyboardAvoidingView} from 'react-native';
+import {View} from 'react-native';
 import {GiftedChat} from 'react-native-gifted-chat';
-import {Header} from 'react-navigation-stack';
 import {useDispatch, useSelector} from 'react-redux';
 
 ChatScreen.navigationOptions = (screenProps: any) => ({
